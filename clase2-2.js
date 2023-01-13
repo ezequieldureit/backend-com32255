@@ -1,11 +1,11 @@
 const persona = {
-  name: "Eze",
-  lastname: "Dure",
-  edad: 3,
-  country: "Argentina",
+  name: "Eze", //clave: valor
+  lastname: "Dure",  //clave: valor
+  edad: 3,  //clave: valor
+  country: "Argentina",  //clave: valor
 };
 
-console.log(persona); // imprimer el objeto persona en si
+console.log(persona); // imprime el objeto persona en si
 
 console.log(Object.keys(persona)); // imprime las claves del objeto
 
